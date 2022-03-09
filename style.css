@@ -33,7 +33,6 @@ section{
 }
 .section-2{
     background-color: #ffd18c;
-    
 }
 .section-3{
     background-color: #ECA6A6;
@@ -71,5 +70,5 @@ section{
     border: none;
 }
 .collapse{
-    padding: 1rem;
+    padding: 0.9rem;
 }
