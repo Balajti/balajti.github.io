@@ -16,10 +16,10 @@
                 <li class="menu">Main</li> 
             </a>
             <a class="link" href="#second">
-                <li class="menu">About me</li> 
+                <li class="menu">Masodik oldal</li> 
             </a>
                 <a class="link" href="#third">
-                    <li class="menu">Page three</li> 
+                    <li class="menu">Harmadik olda</li> 
                 </a>
         </ul>
     </header>
@@ -40,13 +40,21 @@
               </div>
         </section>
         <section class="section-2" id="second">
-            <h1>Page two</h1>
+            <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Buzi vagy" data-bs-content="Azt hitted komolyan más lesz?">Eskü ez szép lesz</button>
         </section>
         <section class="section-3" id="third">
-            <h1>Page three</h1>
+            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Három a magyar igazság</button>
+            <div id="demo" class="collapse">
+                <h5>Buzi vagy xd</h5>
+              </div>
         </section>
-
     </div>
 
 </body>
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+    </script>
 </html>
