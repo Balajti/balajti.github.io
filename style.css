@@ -57,15 +57,13 @@ section{
     text-decoration: none;
     color: rgb(31, 31, 31);
 }
-.menu:hover{
+.menu:hover, .menu:active{
     transform: scale(1.2);
     transition-duration: 1ms;
     color: rgb(31, 31, 31);
-    
 }
 .all-menu{
-    box-shadow: black ;
-
+    box-shadow: black;
 }
 .btn-primary{
     background-color: chartreuse;
