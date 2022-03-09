@@ -10,8 +10,9 @@ body{
     padding: 0;
     scroll-behavior: smooth;
 }
-.container{
-    width: 100%;
+.container-fluid{
+    margin: 0;
+    padding: 0;
     height: 100%;
     background-color: #E2DEA9;
     scroll-snap-type: y mandatory;
@@ -37,7 +38,7 @@ section{
 .section-3{
     background-color: #ECA6A6;
 }
-.header-menu{
+.navbar{
     position: absolute;
     display: flex;
     justify-content: center;
@@ -59,4 +60,15 @@ section{
 .menu:hover{
     transform: scale(1.2);
     transition-duration: 1ms;
+    color: rgb(31, 31, 31);
+    
+}
+.all-menu{
+    box-shadow: black ;
+
+}
+.btn-primary{
+    background-color: chartreuse;
+    outline: none;
+    border: none;
 }
