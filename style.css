@@ -42,7 +42,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: black;
+    box-shadow: black 10px;
 }
 .menu{
     list-style: none;
