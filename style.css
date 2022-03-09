@@ -68,6 +68,12 @@ section{
     background-color: rgba(0, 255, 191, 0.3);
     outline: none;
     border: none;
+    
+}
+.btn-primary:active, .btn-primary:hover, .btn-primary::after{
+    background-color: rgba(0, 255, 191, 0.3);
+    outline: none;
+    border: none;
 }
 .collapse{
     padding: 0.9rem;
