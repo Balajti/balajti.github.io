@@ -79,6 +79,74 @@ body{
     }
 }
 .tartalom{
-    width: 100vh;
+    width: 100%;
     height: 100vh;
+}
+.egeszmenu{
+    display: flex;
+    padding-top: 1rem;
+    width: max-content;
+}
+.menupont{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    padding-right: 0.7rem;
+    background-color: rgba(128, 128, 128, 0.466);
+    border-radius: 50%;
+}
+.menupontok{
+    list-style-type: none;
+}
+.menu2{
+    display: flex;
+}
+.menu{
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    height: 1.5rem;
+    background-color: #917164;
+    position: sticky;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+@keyframes menube{
+    to{
+        opacity: 1;
+    }
+}
+.menuvonalak{
+    opacity: 1;
+    position: sticky;
+    display: grid;
+    justify-content: left;
+    margin-left: 0.5rem;
+    
+    width: max-content;
+}
+.vonal1{
+    width: 1.2rem;
+    height: 0.3rem;
+    background-color: white;
+    margin-bottom: 0.2rem;
+    border-radius: 30%;
+}
+.vonal2{
+    width: 1.2rem;
+    height: 0.3rem;
+    background-color: white;
+    margin-bottom: 0.2rem;
+    border-radius: 30%;
+}
+.vonal3{
+    width: 1.2rem;
+    height: 0.3rem;
+    background-color: white;
+    margin-bottom: 0.2rem;
+    border-radius: 30%;
+}
+.menuvonalak:hover > .menu{
+    animation: 
+        menube 1s ease forwards;
 }
