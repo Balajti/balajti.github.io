@@ -81,7 +81,7 @@ body{
 .tartalom{
     width: 100%;
     height: 100vh;
-    border-top: 1px dotted rgb(83, 83, 83);
+    border-top: 1px dotted rgba(61, 61, 61, 0.911);
     
 }
 .menupont{
