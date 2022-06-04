@@ -355,6 +355,9 @@
         border-radius: 0;
         justify-content: center;
     }
+    .mainpic2{
+        display: block;
+    }
     .header{
         width: 95%;
         margin: auto;
