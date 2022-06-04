@@ -12,6 +12,9 @@ const menuClose = document.querySelector(".menu-close");
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const previous = document.querySelector(".previous");
 const next = document.querySelector(".next");
+const all = document.querySelectorAll(".lightroom");
+const close = document.querySelector(".close");
+
 
 let quantity = 1;
 
@@ -118,4 +121,16 @@ next.addEventListener("click", function() {
             currentpic(mobileCurrent);
         }     
     }
+});
+
+all.addEventListener("click", function() {
+    all.style.display = "none";
+});
+
+close.addEventListener("click", function() {
+    close.style.display = "none";
+});
+
+mainpic.addEventListener("dbclick", function() {
+    document.querySelector(".lightroom").style.display = "flex";
 });

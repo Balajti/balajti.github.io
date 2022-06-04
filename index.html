@@ -13,137 +13,158 @@
   <title>Frontend Mentor | E-commerce product page</title>
 </head>
 <body>
-  
-    <div class="header">
-        <div class="header-l">
-          <div class="header-content-left">
-            <span class="menu">
-              <img src="./images/icon-menu.svg" alt="menu" class="hamburger-menu">
-              <div id="menu-content">
-                
-                <div class="menu-content">
-                  <img src="./images/icon-close.svg" alt="close" class="menu-close">
-                  <a href="#">Collections</a>
-                  <a href="#">Men</a>
-                  <a href="#">Women</a>
-                  <a href="#">About</a>
-                  <a href="#">Contact</a>
-                </div>
+  <!-- <div class="lightroom">
+    <div class="product-image lightroom-center">
+      <img src="./images/icon-close2.svg" class="close">
+        <img src="./images/image-product-1.jpg" class="mainpic" id="lightroom-mainpic">        
+      
+    </div>
+    <div class="product-images lightroom-thumbnail">
+      <div class="thumbnail-center">
+      <div class="product-image-thumbnail">
+        <img src="./images/image-product-1-thumbnail.jpg" alt="Product image" class="demo demo1" onclick=" currentpic(1)" id="active">
+      </div>
+      <div class="product-image-thumbnail">
+        <img src="./images/image-product-2-thumbnail.jpg" alt="Product image" class="demo demo2" onclick=" currentpic(2)">
+      </div>
+      <div class="product-image-thumbnail">
+        <img src="./images/image-product-3-thumbnail.jpg" alt="Product image" class="demo demo3" onclick=" currentpic(3)">
+      </div>
+      <div class="product-image-thumbnail">
+        <img src="./images/image-product-4-thumbnail.jpg" alt="Product image" class="demo demo4" onclick=" currentpic(4)">
+      </div>
+    </div>
+    </div>
+  </div> -->
+      <div class="header">
+          <div class="header-l">
+            <div class="header-content-left">
+              <span class="menu">
+                <img src="./images/icon-menu.svg" alt="menu" class="hamburger-menu">
+                <div id="menu-content">
+                  
+                  <div class="menu-content">
+                    <img src="./images/icon-close.svg" alt="close" class="menu-close">
+                    <a href="#">Collections</a>
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                  </div>
+              </div>
+              </span>
+              <a href="index.html">
+                <img src="./images/logo.svg" alt="Frontend Mentor logo" class="logo">
+              </a>
             </div>
-            </span>
-            <a href="index.html">
-              <img src="./images/logo.svg" alt="Frontend Mentor logo" class="logo">
-            </a>
+            <div class="header-content-menu">
+              <a href="#">Collections</a>
+              <a href="#">Men</a>
+              <a href="#">Women</a>
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+            </div>
           </div>
-          <div class="header-content-menu">
-            <a href="#">Collections</a>
-            <a href="#">Men</a>
-            <a href="#">Women</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-          </div>
-        </div>
-        <div class="header-content-right">
-          <div class="dropdown">
-            <div class="quantityCircle"></div>
-            <img src="./images/icon-cart.svg" class="cart">
-            <div class="inthecart">
-              <h1>Cart</h1>
-              <hr>
-              <div class="items">
-                <div class="item">
-                  <img src="./images/image-product-1-thumbnail.jpg" class="cart-picture">
-                  <div class="item-info">
-                    <h3>Fall Limited Edition Sneakers</h3>
-                    <p>$125 x </p>
-                    <p class="quantity"></p>
-                    <p>$</p>
-                    <p class="finalprice"></p>
-                  </div class="delete">
-                  <img src="./images/icon-delete.svg" class="delete">
-                </div>
-                <div class="checkout">
-                  <p>Checkout</p>
+          <div class="header-content-right">
+            <div class="dropdown">
+              <div class="quantityCircle"></div>
+              <img src="./images/icon-cart.svg" class="cart">
+              <div class="inthecart">
+                <h1>Cart</h1>
+                <hr>
+                <div class="items">
+                  <div class="item">
+                    <img src="./images/image-product-1-thumbnail.jpg" class="cart-picture">
+                    <div class="item-info">
+                      <h3>Fall Limited Edition Sneakers</h3>
+                      <p>$125 x </p>
+                      <p class="quantity"></p>
+                      <p>$</p>
+                      <p class="finalprice"></p>
+                    </div class="delete">
+                    <img src="./images/icon-delete.svg" class="delete">
+                  </div>
+                  <div class="checkout">
+                    <p>Checkout</p>
+                  </div>
                 </div>
               </div>
             </div>
+            <img src="./images/image-avatar.png" class="profile">
+            
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="Container-left ">
+          <div class="product-image">
+            <!-- <div id="pic">          
+              <img src="./images/icon-previous.svg" class="previous">
+              <img src="./images/icon-next.svg" class="next">
+            </div> -->
+              <img src="./images/image-product-1.jpg" class="mainpic">
+              <img src="./images/image-product-2.jpg" class="mainpic2">
+              <img src="./images/image-product-3.jpg" class="mainpic2">
+              <img src="./images/image-product-4.jpg" class="mainpic2">
+            
           </div>
-          <img src="./images/image-avatar.png" class="profile">
+          <div class="product-images">
+            <div class="product-image-thumbnail">
+              <img src="./images/image-product-1-thumbnail.jpg" alt="Product image" class="demo demo1" onclick=" currentpic(1)" id="active">
+            </div>
+            <div class="product-image-thumbnail">
+              <img src="./images/image-product-2-thumbnail.jpg" alt="Product image" class="demo demo2" onclick=" currentpic(2)">
+            </div>
+            <div class="product-image-thumbnail">
+              <img src="./images/image-product-3-thumbnail.jpg" alt="Product image" class="demo demo3" onclick=" currentpic(3)">
+            </div>
+            <div class="product-image-thumbnail">
+              <img src="./images/image-product-4-thumbnail.jpg" alt="Product image" class="demo demo4" onclick=" currentpic(4)">
+            </div>
+            
+          </div>
+        </div>
+        <div class="container-right">
+          <p class="sneaker">
+            SNEAKER COMPANY
+          </p>
+          <h1 class="cim">
+            Fall Limited Edition Sneakers
+          </h1>
+          <p class="about">
+            These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p>
+          <div class="price">
+            <div class="new-price">
+              <span class="price-new">$125</span>
+              <span class="priceprecentage">50%</span>
+            </div>
+            <span class="old-price">$250</span>
+        </div>
+        <div class="addtocart">
+          <div class="volume">
+            <!-- <button class="volumechange add">+</button> -->
+            <img src="./images/icon-plus.svg" class="volumechange add">
+            <h1 class="volumetxt">1</h1>
+            <img src="./images/icon-minus.svg" class="volumechange minus">
+            <!-- <button class="volumechange minus">-</button> -->
+          </div>
+          <div class="addtocart-button addbutton">
+            <img src="./images/icon-cart.svg" class="cart2">
+            <p class="addtocart-text">Add to cart</p>
+          </div>
+
+
           
+        </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="Container-left ">
-        <div class="product-image">
-          <!-- <div id="pic">          
-            <img src="./images/icon-previous.svg" class="previous">
-            <img src="./images/icon-next.svg" class="next">
-          </div> -->
-            <img src="./images/image-product-1.jpg" class="mainpic">
-            <img src="./images/image-product-2.jpg" class="mainpic2">
-            <img src="./images/image-product-3.jpg" class="mainpic2">
-            <img src="./images/image-product-4.jpg" class="mainpic2">
-          
-        </div>
-        <div class="product-images">
-          <div class="product-image-thumbnail">
-            <img src="./images/image-product-1-thumbnail.jpg" alt="Product image" class="demo demo1" onclick=" currentpic(1)" id="active">
-          </div>
-          <div class="product-image-thumbnail">
-            <img src="./images/image-product-2-thumbnail.jpg" alt="Product image" class="demo demo2" onclick=" currentpic(2)">
-          </div>
-          <div class="product-image-thumbnail">
-            <img src="./images/image-product-3-thumbnail.jpg" alt="Product image" class="demo demo3" onclick=" currentpic(3)">
-          </div>
-          <div class="product-image-thumbnail">
-            <img src="./images/image-product-4-thumbnail.jpg" alt="Product image" class="demo demo4" onclick=" currentpic(4)">
-          </div>
-          
-        </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Zsolt Balajti</a>.
       </div>
-      <div class="container-right">
-        <p class="sneaker">
-          SNEAKER COMPANY
-        </p>
-        <h1 class="cim">
-          Fall Limited Edition Sneakers
-        </h1>
-        <p class="about">
-          These low-profile sneakers are your perfect casual wear companion. Featuring a 
-          durable rubber outer sole, they’ll withstand everything the weather can offer.
-        </p>
-        <div class="price">
-          <div class="new-price">
-            <span class="price-new">$125</span>
-            <span class="priceprecentage">50%</span>
-          </div>
-          <span class="old-price">$250</span>
-      </div>
-      <div class="addtocart">
-        <div class="volume">
-          <!-- <button class="volumechange add">+</button> -->
-          <img src="./images/icon-plus.svg" class="volumechange add">
-          <h1 class="volumetxt">1</h1>
-          <img src="./images/icon-minus.svg" class="volumechange minus">
-          <!-- <button class="volumechange minus">-</button> -->
-        </div>
-        <div class="addtocart-button addbutton">
-          <img src="./images/icon-cart.svg" class="cart2">
-          <p class="addtocart-text">Add to cart</p>
-        </div>
-
-
-        
-      </div>
-    </div>
-  </div>
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Zsolt Balajti</a>.
-    </div>
-
   <script src="app.js"></script>
 </body>
 </html>
